@@ -21,7 +21,7 @@ sys.path.insert(0, str(ROOT / "cli"))
 
 import akbp  # noqa: E402
 
-SCHEMA_BASE = "https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas"
+SCHEMA_BASE = "https://raw.githubusercontent.com/AI-pro017/agent-knowledge-base-protocol/main/schemas"
 REQUEST_SCHEMA = f"{SCHEMA_BASE}/tool-request.schema.json"
 RESPONSE_SCHEMA = f"{SCHEMA_BASE}/tool-response.schema.json"
 METHODS_SCHEMA = f"{SCHEMA_BASE}/tool-methods.schema.json"

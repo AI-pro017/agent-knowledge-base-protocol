@@ -23,7 +23,7 @@ Schema `$id` values use GitHub raw URLs so they resolve today.
 Example:
 
 ```text
-https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/evidence.schema.json
+https://raw.githubusercontent.com/AI-pro017/agent-knowledge-base-protocol/main/schemas/evidence.schema.json
 ```
 
 If AKBP later owns a domain, update this document and the schemas in the same commit. Do not use non-resolving future domains in committed schemas.

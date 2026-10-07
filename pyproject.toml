@@ -24,9 +24,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/AI-pro017/akbp"
-Repository = "https://github.com/AI-pro017/akbp"
-Issues = "https://github.com/AI-pro017/akbp/issues"
+Homepage = "https://github.com/AI-pro017/agent-knowledge-base-protocol"
+Repository = "https://github.com/AI-pro017/agent-knowledge-base-protocol"
+Issues = "https://github.com/AI-pro017/agent-knowledge-base-protocol/issues"
 
 [project.scripts]
 akbp = "akbp:main"

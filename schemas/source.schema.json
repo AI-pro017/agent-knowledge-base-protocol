@@ -1,6 +1,6 @@
 ﻿{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/source.schema.json",
+  "$id": "https://raw.githubusercontent.com/AI-pro017/agent-knowledge-base-protocol/main/schemas/source.schema.json",
   "title": "AKBP Source",
   "type": "object",
   "required": ["id", "type", "locator", "created_at"],

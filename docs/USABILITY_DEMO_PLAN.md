@@ -24,7 +24,7 @@ The strongest public demo is a 6 minute terminal walkthrough that starts with an
 Run the shipped happy path first:
 
 ```bash
-git clone https://github.com/AI-pro017/akbp.git
+git clone https://github.com/AI-pro017/agent-knowledge-base-protocol.git
 cd akbp
 make demo
 ```
