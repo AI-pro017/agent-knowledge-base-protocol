@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Minimal AKBP JSONL tool server.
 
 This is intentionally dependency-free. It reads one JSON request per line from
@@ -21,7 +21,7 @@ sys.path.insert(0, str(ROOT / "cli"))
 
 import akbp  # noqa: E402
 
-SCHEMA_BASE = "https://raw.githubusercontent.com/rohitg00/akbp/main/schemas"
+SCHEMA_BASE = "https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas"
 REQUEST_SCHEMA = f"{SCHEMA_BASE}/tool-request.schema.json"
 RESPONSE_SCHEMA = f"{SCHEMA_BASE}/tool-response.schema.json"
 METHODS_SCHEMA = f"{SCHEMA_BASE}/tool-methods.schema.json"

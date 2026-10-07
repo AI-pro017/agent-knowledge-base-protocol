@@ -1,6 +1,4 @@
-# AKBP
-
-[![CI](https://github.com/rohitg00/akbp/actions/workflows/ci.yml/badge.svg)](https://github.com/rohitg00/akbp/actions/workflows/ci.yml)
+﻿# Agent Knowledge Base Protocol
 
 <p align="center">
   <img src="docs/assets/akbp-product-explainer-banner.png" alt="AKBP banner showing capture, structure, verify, and retrieve workflow for agent knowledge" width="100%">
@@ -10,7 +8,7 @@
 
 AKBP turns the LLM Wiki pattern into a protocol surface for agent runtimes. It is a local-first, file-backed knowledge base that agents can read, write, verify, export, and carry across tools.
 
-The idea comes from the same insight behind [LLM Wiki v2](https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2): stop re-deriving, start compiling. AKBP adds the machinery a repo needs when that pattern becomes operational: typed claims, source hashes, lifecycle relations, review-gated writes, JSONL tool calls, schemas, and conformance tests.
+The core idea: stop re-deriving context on every session, start compiling it. AKBP adds the machinery a repo needs when that pattern becomes operational: typed claims, source hashes, lifecycle relations, review-gated writes, JSONL tool calls, schemas, and conformance tests.
 
 This repository contains the reference implementation:
 
@@ -69,7 +67,7 @@ If this is your first run, start with `docs/GETTING_STARTED.md`. It gives a ten-
 Run the public-alpha demo:
 
 ```bash
-git clone https://github.com/rohitg00/akbp.git
+git clone https://github.com/AI-pro017/akbp.git
 cd akbp
 make demo
 ```

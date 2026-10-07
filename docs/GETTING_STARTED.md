@@ -1,4 +1,4 @@
-# Getting started
+﻿# Getting started
 
 Use this path when you want to understand AKBP as a working agent-knowledge protocol, not only as a repository of schemas and commands.
 
@@ -67,7 +67,7 @@ adapter knows which KB it is reading from.
 From a clean checkout:
 
 ```bash
-git clone https://github.com/rohitg00/akbp.git
+git clone https://github.com/AI-pro017/akbp.git
 cd akbp
 make demo
 ```

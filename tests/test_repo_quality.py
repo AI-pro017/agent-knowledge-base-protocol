@@ -1,4 +1,4 @@
-import json
+﻿import json
 import re
 import unittest
 from pathlib import Path
@@ -14,7 +14,7 @@ class RepoQualityTest(unittest.TestCase):
             data = json.loads(path.read_text(encoding="utf-8"))
             self.assertIn("$schema", data)
             self.assertTrue(
-                data["$id"].startswith("https://raw.githubusercontent.com/rohitg00/akbp/main/schemas/"),
+                data["$id"].startswith("https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/"),
                 data["$id"],
             )
             self.assertNotIn("akbp.dev", data["$id"])

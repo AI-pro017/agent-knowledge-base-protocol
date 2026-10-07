@@ -1,4 +1,4 @@
-# Usability demo plan
+﻿# Usability demo plan
 
 Use this page to show AKBP as a practical tool users can run today while the implementation is still alpha.
 
@@ -24,7 +24,7 @@ The strongest public demo is a 6 minute terminal walkthrough that starts with an
 Run the shipped happy path first:
 
 ```bash
-git clone https://github.com/rohitg00/akbp.git
+git clone https://github.com/AI-pro017/akbp.git
 cd akbp
 make demo
 ```
