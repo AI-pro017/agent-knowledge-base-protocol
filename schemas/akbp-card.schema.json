@@ -1,6 +1,6 @@
 ﻿{
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/akbp-card.schema.json",
+  "$id": "https://raw.githubusercontent.com/AI-pro017/agent-knowledge-base-protocol/main/schemas/akbp-card.schema.json",
   "title": "AKBP Knowledge Base Card",
   "type": "object",
   "additionalProperties": false,

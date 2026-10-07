@@ -851,7 +851,7 @@ class BenchmarkFixtureTest(unittest.TestCase):
         self.assertIn("type_errors", invalid_params["expected_error_fields"])
         self.assertEqual(
             invalid_params["expected_error_values"]["params_schema"],
-            "https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/tool-methods.schema.json#/$defs/akbp.session.start.params",
+            "https://raw.githubusercontent.com/AI-pro017/agent-knowledge-base-protocol/main/schemas/tool-methods.schema.json#/$defs/akbp.session.start.params",
         )
         preview = requests["remember-preview-structured-harness"]
         self.assertTrue(preview["dry_run"])

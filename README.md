@@ -67,7 +67,7 @@ If this is your first run, start with `docs/GETTING_STARTED.md`. It gives a ten-
 Run the public-alpha demo:
 
 ```bash
-git clone https://github.com/AI-pro017/akbp.git
+git clone https://github.com/AI-pro017/agent-knowledge-base-protocol.git
 cd akbp
 make demo
 ```

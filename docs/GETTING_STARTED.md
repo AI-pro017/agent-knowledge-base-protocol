@@ -67,7 +67,7 @@ adapter knows which KB it is reading from.
 From a clean checkout:
 
 ```bash
-git clone https://github.com/AI-pro017/akbp.git
+git clone https://github.com/AI-pro017/agent-knowledge-base-protocol.git
 cd akbp
 make demo
 ```

@@ -24,7 +24,7 @@
           "negotiation.supported_features[]": ["method_param_schemas", "features.capability_negotiation"],
           "negotiation.unsupported_features[]": ["future_feature"],
           "negotiation.satisfied": [false],
-          "schemas.methods": ["https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/tool-methods.schema.json"],
+          "schemas.methods": ["https://raw.githubusercontent.com/AI-pro017/agent-knowledge-base-protocol/main/schemas/tool-methods.schema.json"],
           "methods.akbp\\.search.write": [false],
           "methods.akbp\\.remember.write": [true],
           "methods.akbp\\.remember.review_required": [true],

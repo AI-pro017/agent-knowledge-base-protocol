@@ -14,7 +14,7 @@ No runtime package dependencies are required.
 For a complete first-run path, read `docs/GETTING_STARTED.md` before choosing an install mode.
 
 ```bash
-git clone https://github.com/AI-pro017/akbp.git
+git clone https://github.com/AI-pro017/agent-knowledge-base-protocol.git
 cd akbp
 python3 cli/akbp.py --help
 ```

@@ -14,7 +14,7 @@ class RepoQualityTest(unittest.TestCase):
             data = json.loads(path.read_text(encoding="utf-8"))
             self.assertIn("$schema", data)
             self.assertTrue(
-                data["$id"].startswith("https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/"),
+                data["$id"].startswith("https://raw.githubusercontent.com/AI-pro017/agent-knowledge-base-protocol/main/schemas/"),
                 data["$id"],
             )
             self.assertNotIn("akbp.dev", data["$id"])

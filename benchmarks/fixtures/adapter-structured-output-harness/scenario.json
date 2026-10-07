@@ -98,7 +98,7 @@
         "expected_error_schema": "#/$defs/invalid_params_details",
         "expected_error_fields": ["type_errors", "params_schema"],
         "expected_error_values": {
-          "params_schema": "https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/tool-methods.schema.json#/$defs/akbp.session.start.params"
+          "params_schema": "https://raw.githubusercontent.com/AI-pro017/agent-knowledge-base-protocol/main/schemas/tool-methods.schema.json#/$defs/akbp.session.start.params"
         },
         "expected_error_contains": {
           "type_errors[]": ["limit must be between 1 and 100"]
