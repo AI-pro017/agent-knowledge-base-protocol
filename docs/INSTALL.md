@@ -1,4 +1,4 @@
-# Install
+﻿# Install
 
 AKBP currently ships as a small dependency-free Python reference implementation.
 
@@ -14,7 +14,7 @@ No runtime package dependencies are required.
 For a complete first-run path, read `docs/GETTING_STARTED.md` before choosing an install mode.
 
 ```bash
-git clone https://github.com/rohitg00/akbp.git
+git clone https://github.com/AI-pro017/akbp.git
 cd akbp
 python3 cli/akbp.py --help
 ```

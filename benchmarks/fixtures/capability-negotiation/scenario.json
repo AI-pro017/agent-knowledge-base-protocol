@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "capability-negotiation-001",
   "task": "Verify that an agent runtime can discover AKBP JSONL tool-server features, schemas, and write-review policy before calling methods.",
   "setup": {
@@ -24,7 +24,7 @@
           "negotiation.supported_features[]": ["method_param_schemas", "features.capability_negotiation"],
           "negotiation.unsupported_features[]": ["future_feature"],
           "negotiation.satisfied": [false],
-          "schemas.methods": ["https://raw.githubusercontent.com/rohitg00/akbp/main/schemas/tool-methods.schema.json"],
+          "schemas.methods": ["https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/tool-methods.schema.json"],
           "methods.akbp\\.search.write": [false],
           "methods.akbp\\.remember.write": [true],
           "methods.akbp\\.remember.review_required": [true],

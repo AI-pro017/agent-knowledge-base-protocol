@@ -1,4 +1,4 @@
-{
+﻿{
   "id": "read-method-schema-001",
   "task": "Verify read-only JSONL methods return schema-backed response shapes that adapters can rely on without write approval.",
   "setup": {
@@ -57,10 +57,10 @@
             true
           ],
           "methods.akbp\\.search.params_schema": [
-            "https://raw.githubusercontent.com/rohitg00/akbp/main/schemas/tool-methods.schema.json#/$defs/akbp.search.params"
+            "https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/tool-methods.schema.json#/$defs/akbp.search.params"
           ],
           "methods.akbp\\.import_apply.params_schema": [
-            "https://raw.githubusercontent.com/rohitg00/akbp/main/schemas/tool-methods.schema.json#/$defs/akbp.import_apply.params"
+            "https://raw.githubusercontent.com/AI-pro017/akbp/main/schemas/tool-methods.schema.json#/$defs/akbp.import_apply.params"
           ]
         }
       },
